@@ -67,7 +67,7 @@ with col2:
             
             # Prediksi dan konversi ke skala aktual (Ribuan USD)
             prediksi = model.predict(input_data)
-            harga_aktual = prediksi * 1000
+            harga_aktual = prediksi[0] * 1000
             
             st.success("Analisis spesifikasi berhasil diproses!")
             
