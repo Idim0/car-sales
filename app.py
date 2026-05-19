@@ -15,7 +15,7 @@ st.set_page_config(
 def load_model():
     try:
         # Pastikan file model_regresi.pkl ada di direktori yang sama
-        with open('model_regresi.pkl', 'rb') as file:
+        with open('model_regresi (2).pkl', 'rb') as file:
             model = pickle.load(file)
         return model
     except FileNotFoundError:
